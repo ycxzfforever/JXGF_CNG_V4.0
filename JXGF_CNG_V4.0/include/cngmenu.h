@@ -1,0 +1,40 @@
+#ifndef _CNGMENU_H_
+#define _CNGMENU_H_
+extern uint8_t	const querytable[];
+void DispControl(void);
+void ValveLowToMidFLow(void);
+void ValveMidToHighFLow(void);
+void ValveLowToMidFLow(void);
+void ValveMidToHighFLow(void);
+void ValveStopFLow(void);
+void ValveSafeFlow(void);
+void DeviceType(void);
+void MaxOneVolume(void);
+void MaxOnePrice(void);
+void StopFuelPressure(void);
+void DispControlSub1(void);
+void ValveFilterTime(void);
+void ValveSwitchDelayTime(void);
+void TwentyPointFiveFlow(void);
+void TwentyOneFlow(void);
+void DispControlSub2(void);
+void TwentyonePointFiveFlow(void);
+void TwentyTwoFlow(void);
+void TwentyTwoPointFive(void);
+void TwentyThreeFlow(void);
+void DispControlSub3(void);
+void TwentyThreePointFiveFlow(void);
+void TwentyFourFlow(void);
+void TwentyFourPointFive(void);
+void XQZStartFlowRate(void);
+void DispControlSub4(void);
+void SetDeviceUp(void);
+void SetDeviceDown(void);
+void DispCtrlParas1(void);
+void DispCtrlParas2(void);
+void DispCtrlParas3(void);
+void DispCtrlParas4(void);
+void DispCtrlParas5(void);
+void BackShow(void);
+
+#endif

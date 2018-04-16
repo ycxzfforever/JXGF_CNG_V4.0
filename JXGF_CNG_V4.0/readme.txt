@@ -1,0 +1,1 @@
+比例系数处tmp_sysparas.pcoeff=(uint16_t)(temp/pressurevalue); 将temp改为32位
